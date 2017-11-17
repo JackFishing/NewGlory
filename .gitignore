@@ -1,0 +1,12 @@
+/Library/
+/Temp/
+/obj/
+/logs/
+
+/Glory.CSharp.csproj/
+/Glory.CSharp.Editor.csproj/
+/Glory.CSharp.Editor.Plugins.csproj/
+/Glory.CSharp.Plugins.csproj/
+/Glory.sln/
+/Glory.v12.suo/
+
