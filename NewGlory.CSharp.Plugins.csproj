@@ -169,6 +169,7 @@
     <None Include="Assets\Resources\Effect\Shader\Particle Alpha Blend1.shader" />
     <None Include="Assets\Resources\Localization\Chinese.json.txt" />
     <None Include="Assets\Resources\Localization\English.json.txt" />
+    <None Include="Assets\Resources\Models\Blade_girl\FT_Pulse_volume01\magic\Clip.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>

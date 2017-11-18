@@ -102,6 +102,7 @@
     <Compile Include="Assets\Foundation\UIComponent\GridScroller.cs" />
     <Compile Include="Assets\Foundation\UIEffect\BlendColor.cs" />
     <Compile Include="Assets\Foundation\UIEffect\GradientColor.cs" />
+    <Compile Include="Assets\Resources\Models\Blade_girl\FT_Pulse_volume01\magic\ClipObjControl.cs" />
     <Compile Include="Assets\SimpleJSON\SimpleJSON.cs" />
     <Compile Include="Assets\_Scripts\JoyStick\SkillArea.cs" />
     <Compile Include="Assets\_Scripts\JoyStick\SkillJoystick.cs" />
@@ -133,6 +134,7 @@
     <None Include="Assets\Resources\Effect\Shader\Particle Alpha Blend1.shader" />
     <None Include="Assets\Resources\Localization\Chinese.json.txt" />
     <None Include="Assets\Resources\Localization\English.json.txt" />
+    <None Include="Assets\Resources\Models\Blade_girl\FT_Pulse_volume01\magic\Clip.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>

@@ -50,7 +50,7 @@ public class SkillArea : MonoBehaviour {
     void Start()
     {
         joystick = GetComponent<SkillJoystick>();
-
+        areaType = SkillAreaType.OuterCircle_InnerCube;
         joystick.onJoystickDownEvent += OnJoystickDownEvent;
         joystick.onJoystickMoveEvent += OnJoystickMoveEvent;
         joystick.onJoystickUpEvent += OnJoystickUpEvent;
@@ -93,6 +93,8 @@ public class SkillArea : MonoBehaviour {
     void OnJoystickUpEvent()
     {
         isPressed = false;
+        Debug.Log("抬起");
+        CharacterAnimationDungeon._instance.HeroAttack();
         HideElements();
     }
 
