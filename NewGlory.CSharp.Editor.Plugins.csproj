@@ -118,6 +118,9 @@
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>Assets\SimpleJSON\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NewGlory.CSharp.Plugins.csproj">
@@ -162,6 +165,11 @@
     <None Include="Assets\Plugins\EasyTouchBundle\EasyTouchControls\ReleaseNotes.txt" />
     <None Include="Assets\Plugins\EasyTouchBundle\Readme.txt" />
     <None Include="Assets\Resources\Effect\Shader\Particle Alpha Blend1.shader" />
+    <None Include="Assets\Resources\Effect1\DynamicElements_Effects\readme.txt" />
+    <None Include="Assets\Resources\Effect1\Realistic Effects Pack\Shaders\AlphaBlended.shader" />
+    <None Include="Assets\Resources\Effect1\Realistic Effects Pack\Shaders\Distortion\DistortionCullBack.shader" />
+    <None Include="Assets\Resources\Effect1\Realistic Effects Pack\Shaders\Distortion\Free\FreeDistortionCullOff.shader" />
+    <None Include="Assets\Resources\Effect1\Realistic Effects Pack\Shaders\ParticleAdd.shader" />
     <None Include="Assets\Resources\Localization\Chinese.json.txt" />
     <None Include="Assets\Resources\Localization\English.json.txt" />
     <None Include="Assets\Resources\Models\Blade_girl\FT_Pulse_volume01\magic\Clip.shader" />

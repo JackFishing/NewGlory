@@ -6,6 +6,7 @@ public class CharacterAnimationDungeon : MonoBehaviour {
     public static CharacterAnimationDungeon _instance;
 	private CharacterController cc;
 	private Animator anim;
+    public GameObject[] effects; 
 
   //  public GameObject ETC;
     void Awake()
@@ -54,9 +55,16 @@ public class CharacterAnimationDungeon : MonoBehaviour {
         }
 
 	}
-    public void HeroAttack()
+    public void HeroAttack(Vector3 pos)
     {
         anim.SetTrigger("ComboAttack");
+        transform.LookAt(pos);
        // ETC.GetComponent<ETCJoystick>().isTurnAndMove = false;
+    }
+    public void EffectClone(Vector3 pos)
+    {
+        GameObject go = Instantiate(effects[0]) as GameObject;
+        go.transform.localPosition = pos;
+
     }
 }

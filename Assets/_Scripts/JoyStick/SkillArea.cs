@@ -50,7 +50,7 @@ public class SkillArea : MonoBehaviour {
     void Start()
     {
         joystick = GetComponent<SkillJoystick>();
-        areaType = SkillAreaType.OuterCircle_InnerCube;
+        areaType = SkillAreaType.OuterCircle_InnerCircle;
         joystick.onJoystickDownEvent += OnJoystickDownEvent;
         joystick.onJoystickMoveEvent += OnJoystickMoveEvent;
         joystick.onJoystickUpEvent += OnJoystickUpEvent;
@@ -89,12 +89,14 @@ public class SkillArea : MonoBehaviour {
         this.deltaVec = new Vector3(deltaVec.x, 0, deltaVec.y);
         CreateSkillArea();
     }
-
+    /// <summary>
+    /// 监听鼠标抬起事件
+    /// </summary>
     void OnJoystickUpEvent()
     {
         isPressed = false;
-        CharacterAnimationDungeon._instance.HeroAttack();
-        CharacterAnimationDungeon._instance.gameObject.transform.LookAt(GetCubeSectorLookAt());
+        CharacterAnimationDungeon._instance.HeroAttack(GetCubeSectorLookAt());
+        CharacterAnimationDungeon._instance.EffectClone(GetCirclePosition(outerRadius));//生成特效
         HideElements();
     }
 
@@ -294,6 +296,7 @@ public class SkillArea : MonoBehaviour {
                 break;
             case SKillAreaElement.InnerCircle:
                 allElementTrans[element].transform.position = GetCirclePosition(outerRadius);
+                //CharacterAnimationDungeon._instance.EffectClone(GetCirclePosition(outerRadius));//生成特效
                 break;
             case SKillAreaElement.Cube:
             case SKillAreaElement.Sector60:
@@ -306,6 +309,7 @@ public class SkillArea : MonoBehaviour {
         if (!allElementTrans[element].gameObject.activeSelf)
             allElementTrans[element].gameObject.SetActive(true);
     }
+
 
     /// <summary>
     /// 获取InnerCircle元素位置
