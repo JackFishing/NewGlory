@@ -93,8 +93,8 @@ public class SkillArea : MonoBehaviour {
     void OnJoystickUpEvent()
     {
         isPressed = false;
-        Debug.Log("抬起");
         CharacterAnimationDungeon._instance.HeroAttack();
+        CharacterAnimationDungeon._instance.gameObject.transform.LookAt(GetCubeSectorLookAt());
         HideElements();
     }
 

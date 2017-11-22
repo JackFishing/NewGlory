@@ -7,6 +7,7 @@ public class CharacterAnimationDungeon : MonoBehaviour {
 	private CharacterController cc;
 	private Animator anim;
 
+  //  public GameObject ETC;
     void Awake()
     {
         _instance = this;
@@ -23,13 +24,24 @@ public class CharacterAnimationDungeon : MonoBehaviour {
 	void LateUpdate(){
 		if (cc.isGrounded && (ETCInput.GetAxis("Vertical")!=0 || ETCInput.GetAxis("Horizontal")!=0)){
 			//anim.CrossFade("soldierRun");
-            anim.SetTrigger("Run");
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Run"))
+            {
+                anim.SetBool("Run", true);
+                anim.SetBool("Idle", false);
+                
+            }
+            
 
 		}
 		
 		if (cc.isGrounded && ETCInput.GetAxis("Vertical")==0 && ETCInput.GetAxis("Horizontal")==0){
 		//	anim.CrossFade("soldierIdleRelaxed");
-            anim.SetTrigger("Idle");
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
+            {
+                anim.SetBool("Idle", true);
+                anim.SetBool("Run", false);
+            }
+           
 
 		}
 		
@@ -44,7 +56,7 @@ public class CharacterAnimationDungeon : MonoBehaviour {
 	}
     public void HeroAttack()
     {
-        Debug.Log("攻击");
         anim.SetTrigger("ComboAttack");
+       // ETC.GetComponent<ETCJoystick>().isTurnAndMove = false;
     }
 }
