@@ -1,0 +1,296 @@
+fileFormatVersion: 2
+guid: f35aa739feed8e942b0ad751e24c1c0c
+timeCreated: 1511487612
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ' zitiguang'
+    100002: Background
+    100004: Background_shitou
+    100006: bianyuan_hym_001
+    100008: bianyuan_hym_002
+    100010: Cigarette
+    100012: //RootNode
+    100014: Dragon
+    100016: Dragon_Head
+    100018: guang
+    100020: guangdai
+    100022: Hero
+    100024: huichen
+    100026: jianshen_hym_002
+    100028: jianshen_hym_003
+    100030: liuguang
+    100032: liuguang 1
+    100034: Login_Logo
+    100036: longtou_hym_002
+    100038: Plane_hym_001
+    100040: Plane_hym_001 1
+    100042: Plane_hym_001_01
+    100044: Plane_hym_001_01 1
+    100046: Plane_hym_001_02
+    100048: Plane_hym_001_02 1
+    100050: Plane_hym_001_03
+    100052: Plane_hym_001_03 1
+    100054: tiaodai_hym_003
+    100056: tiaodai_hym_004
+    100058: yanceng02
+    100060: yanceng_hym_004
+    100062: yanchen_hym_001
+    100064: yanjiang
+    100066: yuanceng01
+    100068: yuanceng02
+    100070: yuanceng02 1
+    100072: yuanceng02 2
+    100074: yuanceng02 3
+    100076: yuanceng02 4
+    100078: yun
+    100080: yun01
+    100082: yun02
+    100084: yun03
+    100086: yun04
+    400000: ' zitiguang'
+    400002: Background
+    400004: Background_shitou
+    400006: bianyuan_hym_001
+    400008: bianyuan_hym_002
+    400010: Cigarette
+    400012: //RootNode
+    400014: Dragon
+    400016: Dragon_Head
+    400018: guang
+    400020: guangdai
+    400022: Hero
+    400024: huichen
+    400026: jianshen_hym_002
+    400028: jianshen_hym_003
+    400030: liuguang
+    400032: liuguang 1
+    400034: Login_Logo
+    400036: longtou_hym_002
+    400038: Plane_hym_001
+    400040: Plane_hym_001 1
+    400042: Plane_hym_001_01
+    400044: Plane_hym_001_01 1
+    400046: Plane_hym_001_02
+    400048: Plane_hym_001_02 1
+    400050: Plane_hym_001_03
+    400052: Plane_hym_001_03 1
+    400054: tiaodai_hym_003
+    400056: tiaodai_hym_004
+    400058: yanceng02
+    400060: yanceng_hym_004
+    400062: yanchen_hym_001
+    400064: yanjiang
+    400066: yuanceng01
+    400068: yuanceng02
+    400070: yuanceng02 1
+    400072: yuanceng02 2
+    400074: yuanceng02 3
+    400076: yuanceng02 4
+    400078: yun
+    400080: yun01
+    400082: yun02
+    400084: yun03
+    400086: yun04
+    2300000: ' zitiguang'
+    2300002: Background
+    2300004: Background_shitou
+    2300006: bianyuan_hym_001
+    2300008: bianyuan_hym_002
+    2300010: Cigarette
+    2300012: Dragon
+    2300014: Dragon_Head
+    2300016: guang
+    2300018: guangdai
+    2300020: Hero
+    2300022: huichen
+    2300024: jianshen_hym_002
+    2300026: jianshen_hym_003
+    2300028: liuguang
+    2300030: liuguang 1
+    2300032: Login_Logo
+    2300034: longtou_hym_002
+    2300036: Plane_hym_001
+    2300038: Plane_hym_001 1
+    2300040: Plane_hym_001_01
+    2300042: Plane_hym_001_01 1
+    2300044: Plane_hym_001_02
+    2300046: Plane_hym_001_02 1
+    2300048: Plane_hym_001_03
+    2300050: Plane_hym_001_03 1
+    2300052: tiaodai_hym_003
+    2300054: tiaodai_hym_004
+    2300056: yanceng02
+    2300058: yanceng_hym_004
+    2300060: yanchen_hym_001
+    2300062: yanjiang
+    2300064: yuanceng01
+    2300066: yuanceng02
+    2300068: yuanceng02 1
+    2300070: yuanceng02 2
+    2300072: yuanceng02 3
+    2300074: yuanceng02 4
+    2300076: yun
+    2300078: yun01
+    2300080: yun02
+    2300082: yun03
+    2300084: yun04
+    3300000: ' zitiguang'
+    3300002: Background
+    3300004: Background_shitou
+    3300006: bianyuan_hym_001
+    3300008: bianyuan_hym_002
+    3300010: Cigarette
+    3300012: Dragon
+    3300014: Dragon_Head
+    3300016: guang
+    3300018: guangdai
+    3300020: Hero
+    3300022: huichen
+    3300024: jianshen_hym_002
+    3300026: jianshen_hym_003
+    3300028: liuguang
+    3300030: liuguang 1
+    3300032: Login_Logo
+    3300034: longtou_hym_002
+    3300036: Plane_hym_001
+    3300038: Plane_hym_001 1
+    3300040: Plane_hym_001_01
+    3300042: Plane_hym_001_01 1
+    3300044: Plane_hym_001_02
+    3300046: Plane_hym_001_02 1
+    3300048: Plane_hym_001_03
+    3300050: Plane_hym_001_03 1
+    3300052: tiaodai_hym_003
+    3300054: tiaodai_hym_004
+    3300056: yanceng02
+    3300058: yanceng_hym_004
+    3300060: yanchen_hym_001
+    3300062: yanjiang
+    3300064: yuanceng01
+    3300066: yuanceng02
+    3300068: yuanceng02 1
+    3300070: yuanceng02 2
+    3300072: yuanceng02 3
+    3300074: yuanceng02 4
+    3300076: yun
+    3300078: yun01
+    3300080: yun02
+    3300082: yun03
+    3300084: yun04
+    4300000: yuanceng02
+    4300002: yuanceng02
+    4300004: liuguang
+    4300006: jianshen_hym_003
+    4300008: jianshen_hym_002
+    4300010: guang
+    4300012: longtou_hym_002
+    4300014: yanchen_hym_001
+    4300016: Plane_hym_001_03
+    4300018: Plane_hym_001_03
+    4300020: Plane_hym_001_02
+    4300022: Plane_hym_001_02
+    4300024: Plane_hym_001_01
+    4300026: Plane_hym_001_01
+    4300028: Plane_hym_001
+    4300030: Plane_hym_001
+    4300032: yanceng_hym_004
+    4300034: bianyuan_hym_001
+    4300036: yuanceng02
+    4300038: yuanceng02
+    4300040: yun
+    4300042: yun04
+    4300044: yun03
+    4300046: yun02
+    4300048: yun01
+    4300050: yuanceng01
+    4300052: yuanceng02
+    4300054: bianyuan_hym_002
+    4300056: huichen
+    4300058: yanceng02
+    4300060: tiaodai_hym_004
+    4300062: liuguang
+    4300064: tiaodai_hym_003
+    4300066: guangdai
+    4300068: yanjiang
+    4300070: Background_shitou
+    4300072: Hero
+    4300074: Dragon_Head
+    4300076: Dragon
+    4300078: Cigarette
+    4300080: Background
+    4300082: Login_Logo
+    4300084: ' zitiguang'
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

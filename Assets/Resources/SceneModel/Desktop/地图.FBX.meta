@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: e25ad459efdd842459ca0a440be39148
+timeCreated: 1511487610
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 1301_GongBenWuZang_LOD2
+    100002: Bip001
+    100004: Bip001 Head
+    100006: Bip001 L Calf
+    100008: Bip001 L Clavicle
+    100010: Bip001 L Finger0
+    100012: Bip001 L Finger01
+    100014: Bip001 L Finger1
+    100016: Bip001 L Finger11
+    100018: Bip001 L Foot
+    100020: Bip001 L Forearm
+    100022: Bip001 L Hand
+    100024: Bip001 L Thigh
+    100026: Bip001 L Toe0
+    100028: Bip001 L UpperArm
+    100030: Bip001 Neck
+    100032: Bip001 Pelvis
+    100034: Bip001 Prop1
+    100036: Bip001 Prop2
+    100038: Bip001 R Calf
+    100040: Bip001 R Clavicle
+    100042: Bip001 R Finger0
+    100044: Bip001 R Finger01
+    100046: Bip001 R Finger1
+    100048: Bip001 R Finger11
+    100050: Bip001 R Foot
+    100052: Bip001 R Forearm
+    100054: Bip001 R Hand
+    100056: Bip001 R Thigh
+    100058: Bip001 R Toe0
+    100060: Bip001 R UpperArm
+    100062: Bip001 Spine
+    100064: Bip001 Spine1
+    100066: Bip001 Xtra01
+    100068: Bip001 Xtra0102
+    100070: Bip001 Xtra0103
+    100072: Bip001 Xtra02
+    100074: Bip001 Xtra0202
+    100076: Bip001 Xtra0203
+    100078: Bone001
+    100080: Bone003
+    100082: CameraHigh
+    100084: Jungle_Grass_L
+    100086: Jungle_Grass_R
+    100088: PGD_P_13BlockBossA_01
+    100090: PGD_P_13BlockBossB_01
+    100092: PGD_P_13BlockBuffBlue_01
+    100094: PGD_P_13BlockBuffBlue_01 1
+    100096: PGD_P_13BlockBuffRed_01
+    100098: PGD_P_13BlockBuffRed_01 1
+    100100: PGD_P_13DecalTerrain_03_4
+    100102: PGD_P_13DecalTerrain_03_4_1
+    100104: PGD_P_13DecalTowerBase_01
+    100106: PGD_P_13DecalTowerBase_02
+    100108: PGD_P_13JungleGrassGroup_03
+    100110: PGD_P_13JungleGrassGroup_03 1
+    100112: PGD_P_13JungleGrassGroup_07
+    100114: PGD_P_13JungleGrassGroup_07 1
+    100116: PGD_P_13JungleGrassGroup_09
+    100118: PGD_P_13JungleGrassGroup_09 1
+    100120: PGD_P_13JungleGrassGroup_11
+    100122: PGD_P_13JungleGrassGroup_11 1
+    100124: PGD_P_13JungleGrassGroup_12
+    100126: PGD_P_13JungleGrassGroup_12 1
+    100128: PGD_P_13JungleGrassGroup_13
+    100130: PGD_P_13JungleGrassGroup_13 1
+    100132: PGD_P_13JungleGrassGroup_14
+    100134: PGD_P_13JungleGrassGroup_14 1
+    100136: PGD_P_13PlantGroup_02
+    100138: PGD_P_13PlantGroup_03
+    100140: PGD_P_13PlantGroup_04
+    100142: PGD_P_13PlantGroup_04 1
+    100144: PGD_P_13PlantGroup_05
+    100146: PGD_P_13PlantGroup_05 1
+    100148: PGD_P_13PlantGroup_10
+    100150: PGD_P_13PlantGroup_10 1
+    100152: PGD_P_13PlantGroup_11
+    100154: PGD_P_13PlantGroup_11 1
+    100156: PGD_P_13PlantGroup_12
+    100158: PGD_P_13PlantGroup_12 1
+    100160: PGD_P_13Terrain_01
+    100162: PGD_P_Low13BaseBlue_02
+    100164: PGD_P_Low13BaseBlue_05
+    100166: PGD_P_Low13BaseRed_02
+    100168: PGD_P_Low13BaseRed_04
+    100170: PGD_P_Low13BaseRed_05
+    100172: PGD_P_Mid13BuffPropsGroup_01
+    100174: PGD_P_Mid13BuffPropsGroup_01 1
+    100176: PGD_P_Mid13BuffPropsGroup_02
+    100178: PGD_P_Mid13BuffPropsGroup_02 1
+    100180: PGD_P_Mid13BuffPropsGroup_03
+    100182: PGD_P_Mid13BuffPropsGroup_03 1
+    100184: PGD_P_Mid13PropsA_01
+    100186: PGD_P_Mid13PropsAdditional_01
+    100188: PGD_P_Mid13PropsAdditional_01 1
+    100190: PGD_P_Mid13PropsAdditional_02
+    100192: PGD_P_Mid13PropsAdditional_02 1
+    100194: PGD_P_Mid13PropsB_01
+    100196: PGD_P_Mid13PropsC_01
+    100198: PGD_P_Mid13PropsD_01
+    100200: PGD_P_Mid13PropsGroup_01
+    100202: PGD_P_Mid13PropsGroup_05
+    100204: PGD_P_Mid13PropsGroup_05 1
+    100206: PGD_P_Mid13PropsGroup_10
+    100208: PGD_P_Mid13PropsGroup_10 1
+    100210: PGD_P_Mid13PropsGroup_11
+    100212: PGD_P_Mid13PropsGroup_11 1
+    100214: PGD_P_Mid13PropsGroup_12
+    100216: PGD_P_Mid13PropsGroup_12 1
+    100218: Plane002
+    100220: Props_L
+    100222: Props_R
+    100224: SceneMesh
+    100226: Shadow_2
+    100228: //RootNode
+    400000: 1301_GongBenWuZang_LOD2
+    400002: Bip001
+    400004: Bip001 Head
+    400006: Bip001 L Calf
+    400008: Bip001 L Clavicle
+    400010: Bip001 L Finger0
+    400012: Bip001 L Finger01
+    400014: Bip001 L Finger1
+    400016: Bip001 L Finger11
+    400018: Bip001 L Foot
+    400020: Bip001 L Forearm
+    400022: Bip001 L Hand
+    400024: Bip001 L Thigh
+    400026: Bip001 L Toe0
+    400028: Bip001 L UpperArm
+    400030: Bip001 Neck
+    400032: Bip001 Pelvis
+    400034: Bip001 Prop1
+    400036: Bip001 Prop2
+    400038: Bip001 R Calf
+    400040: Bip001 R Clavicle
+    400042: Bip001 R Finger0
+    400044: Bip001 R Finger01
+    400046: Bip001 R Finger1
+    400048: Bip001 R Finger11
+    400050: Bip001 R Foot
+    400052: Bip001 R Forearm
+    400054: Bip001 R Hand
+    400056: Bip001 R Thigh
+    400058: Bip001 R Toe0
+    400060: Bip001 R UpperArm
+    400062: Bip001 Spine
+    400064: Bip001 Spine1
+    400066: Bip001 Xtra01
+    400068: Bip001 Xtra0102
+    400070: Bip001 Xtra0103
+    400072: Bip001 Xtra02
+    400074: Bip001 Xtra0202
+    400076: Bip001 Xtra0203
+    400078: Bone001
+    400080: Bone003
+    400082: CameraHigh
+    400084: Jungle_Grass_L
+    400086: Jungle_Grass_R
+    400088: PGD_P_13BlockBossA_01
+    400090: PGD_P_13BlockBossB_01
+    400092: PGD_P_13BlockBuffBlue_01
+    400094: PGD_P_13BlockBuffBlue_01 1
+    400096: PGD_P_13BlockBuffRed_01
+    400098: PGD_P_13BlockBuffRed_01 1
+    400100: PGD_P_13DecalTerrain_03_4
+    400102: PGD_P_13DecalTerrain_03_4_1
+    400104: PGD_P_13DecalTowerBase_01
+    400106: PGD_P_13DecalTowerBase_02
+    400108: PGD_P_13JungleGrassGroup_03
+    400110: PGD_P_13JungleGrassGroup_03 1
+    400112: PGD_P_13JungleGrassGroup_07
+    400114: PGD_P_13JungleGrassGroup_07 1
+    400116: PGD_P_13JungleGrassGroup_09
+    400118: PGD_P_13JungleGrassGroup_09 1
+    400120: PGD_P_13JungleGrassGroup_11
+    400122: PGD_P_13JungleGrassGroup_11 1
+    400124: PGD_P_13JungleGrassGroup_12
+    400126: PGD_P_13JungleGrassGroup_12 1
+    400128: PGD_P_13JungleGrassGroup_13
+    400130: PGD_P_13JungleGrassGroup_13 1
+    400132: PGD_P_13JungleGrassGroup_14
+    400134: PGD_P_13JungleGrassGroup_14 1
+    400136: PGD_P_13PlantGroup_02
+    400138: PGD_P_13PlantGroup_03
+    400140: PGD_P_13PlantGroup_04
+    400142: PGD_P_13PlantGroup_04 1
+    400144: PGD_P_13PlantGroup_05
+    400146: PGD_P_13PlantGroup_05 1
+    400148: PGD_P_13PlantGroup_10
+    400150: PGD_P_13PlantGroup_10 1
+    400152: PGD_P_13PlantGroup_11
+    400154: PGD_P_13PlantGroup_11 1
+    400156: PGD_P_13PlantGroup_12
+    400158: PGD_P_13PlantGroup_12 1
+    400160: PGD_P_13Terrain_01
+    400162: PGD_P_Low13BaseBlue_02
+    400164: PGD_P_Low13BaseBlue_05
+    400166: PGD_P_Low13BaseRed_02
+    400168: PGD_P_Low13BaseRed_04
+    400170: PGD_P_Low13BaseRed_05
+    400172: PGD_P_Mid13BuffPropsGroup_01
+    400174: PGD_P_Mid13BuffPropsGroup_01 1
+    400176: PGD_P_Mid13BuffPropsGroup_02
+    400178: PGD_P_Mid13BuffPropsGroup_02 1
+    400180: PGD_P_Mid13BuffPropsGroup_03
+    400182: PGD_P_Mid13BuffPropsGroup_03 1
+    400184: PGD_P_Mid13PropsA_01
+    400186: PGD_P_Mid13PropsAdditional_01
+    400188: PGD_P_Mid13PropsAdditional_01 1
+    400190: PGD_P_Mid13PropsAdditional_02
+    400192: PGD_P_Mid13PropsAdditional_02 1
+    400194: PGD_P_Mid13PropsB_01
+    400196: PGD_P_Mid13PropsC_01
+    400198: PGD_P_Mid13PropsD_01
+    400200: PGD_P_Mid13PropsGroup_01
+    400202: PGD_P_Mid13PropsGroup_05
+    400204: PGD_P_Mid13PropsGroup_05 1
+    400206: PGD_P_Mid13PropsGroup_10
+    400208: PGD_P_Mid13PropsGroup_10 1
+    400210: PGD_P_Mid13PropsGroup_11
+    400212: PGD_P_Mid13PropsGroup_11 1
+    400214: PGD_P_Mid13PropsGroup_12
+    400216: PGD_P_Mid13PropsGroup_12 1
+    400218: Plane002
+    400220: Props_L
+    400222: Props_R
+    400224: SceneMesh
+    400226: Shadow_2
+    400228: //RootNode
+    2300000: PGD_P_13BlockBossA_01
+    2300002: PGD_P_13BlockBossB_01
+    2300004: PGD_P_13BlockBuffBlue_01
+    2300006: PGD_P_13BlockBuffBlue_01 1
+    2300008: PGD_P_13BlockBuffRed_01
+    2300010: PGD_P_13BlockBuffRed_01 1
+    2300012: PGD_P_13DecalTerrain_03_4
+    2300014: PGD_P_13DecalTerrain_03_4_1
+    2300016: PGD_P_13DecalTowerBase_01
+    2300018: PGD_P_13DecalTowerBase_02
+    2300020: PGD_P_13JungleGrassGroup_03
+    2300022: PGD_P_13JungleGrassGroup_03 1
+    2300024: PGD_P_13JungleGrassGroup_07
+    2300026: PGD_P_13JungleGrassGroup_07 1
+    2300028: PGD_P_13JungleGrassGroup_09
+    2300030: PGD_P_13JungleGrassGroup_09 1
+    2300032: PGD_P_13JungleGrassGroup_11
+    2300034: PGD_P_13JungleGrassGroup_11 1
+    2300036: PGD_P_13JungleGrassGroup_12
+    2300038: PGD_P_13JungleGrassGroup_12 1
+    2300040: PGD_P_13JungleGrassGroup_13
+    2300042: PGD_P_13JungleGrassGroup_13 1
+    2300044: PGD_P_13JungleGrassGroup_14
+    2300046: PGD_P_13JungleGrassGroup_14 1
+    2300048: PGD_P_13PlantGroup_02
+    2300050: PGD_P_13PlantGroup_03
+    2300052: PGD_P_13PlantGroup_04
+    2300054: PGD_P_13PlantGroup_04 1
+    2300056: PGD_P_13PlantGroup_05
+    2300058: PGD_P_13PlantGroup_05 1
+    2300060: PGD_P_13PlantGroup_10
+    2300062: PGD_P_13PlantGroup_10 1
+    2300064: PGD_P_13PlantGroup_11
+    2300066: PGD_P_13PlantGroup_11 1
+    2300068: PGD_P_13PlantGroup_12
+    2300070: PGD_P_13PlantGroup_12 1
+    2300072: PGD_P_13Terrain_01
+    2300074: PGD_P_Low13BaseBlue_02
+    2300076: PGD_P_Low13BaseBlue_05
+    2300078: PGD_P_Low13BaseRed_02
+    2300080: PGD_P_Low13BaseRed_04
+    2300082: PGD_P_Low13BaseRed_05
+    2300084: PGD_P_Mid13BuffPropsGroup_01
+    2300086: PGD_P_Mid13BuffPropsGroup_01 1
+    2300088: PGD_P_Mid13BuffPropsGroup_02
+    2300090: PGD_P_Mid13BuffPropsGroup_02 1
+    2300092: PGD_P_Mid13BuffPropsGroup_03
+    2300094: PGD_P_Mid13BuffPropsGroup_03 1
+    2300096: PGD_P_Mid13PropsA_01
+    2300098: PGD_P_Mid13PropsAdditional_01
+    2300100: PGD_P_Mid13PropsAdditional_01 1
+    2300102: PGD_P_Mid13PropsAdditional_02
+    2300104: PGD_P_Mid13PropsAdditional_02 1
+    2300106: PGD_P_Mid13PropsB_01
+    2300108: PGD_P_Mid13PropsC_01
+    2300110: PGD_P_Mid13PropsD_01
+    2300112: PGD_P_Mid13PropsGroup_01
+    2300114: PGD_P_Mid13PropsGroup_05
+    2300116: PGD_P_Mid13PropsGroup_05 1
+    2300118: PGD_P_Mid13PropsGroup_10
+    2300120: PGD_P_Mid13PropsGroup_10 1
+    2300122: PGD_P_Mid13PropsGroup_11
+    2300124: PGD_P_Mid13PropsGroup_11 1
+    2300126: PGD_P_Mid13PropsGroup_12
+    2300128: PGD_P_Mid13PropsGroup_12 1
+    2300130: Plane002
+    3300000: PGD_P_13BlockBossA_01
+    3300002: PGD_P_13BlockBossB_01
+    3300004: PGD_P_13BlockBuffBlue_01
+    3300006: PGD_P_13BlockBuffBlue_01 1
+    3300008: PGD_P_13BlockBuffRed_01
+    3300010: PGD_P_13BlockBuffRed_01 1
+    3300012: PGD_P_13DecalTerrain_03_4
+    3300014: PGD_P_13DecalTerrain_03_4_1
+    3300016: PGD_P_13DecalTowerBase_01
+    3300018: PGD_P_13DecalTowerBase_02
+    3300020: PGD_P_13JungleGrassGroup_03
+    3300022: PGD_P_13JungleGrassGroup_03 1
+    3300024: PGD_P_13JungleGrassGroup_07
+    3300026: PGD_P_13JungleGrassGroup_07 1
+    3300028: PGD_P_13JungleGrassGroup_09
+    3300030: PGD_P_13JungleGrassGroup_09 1
+    3300032: PGD_P_13JungleGrassGroup_11
+    3300034: PGD_P_13JungleGrassGroup_11 1
+    3300036: PGD_P_13JungleGrassGroup_12
+    3300038: PGD_P_13JungleGrassGroup_12 1
+    3300040: PGD_P_13JungleGrassGroup_13
+    3300042: PGD_P_13JungleGrassGroup_13 1
+    3300044: PGD_P_13JungleGrassGroup_14
+    3300046: PGD_P_13JungleGrassGroup_14 1
+    3300048: PGD_P_13PlantGroup_02
+    3300050: PGD_P_13PlantGroup_03
+    3300052: PGD_P_13PlantGroup_04
+    3300054: PGD_P_13PlantGroup_04 1
+    3300056: PGD_P_13PlantGroup_05
+    3300058: PGD_P_13PlantGroup_05 1
+    3300060: PGD_P_13PlantGroup_10
+    3300062: PGD_P_13PlantGroup_10 1
+    3300064: PGD_P_13PlantGroup_11
+    3300066: PGD_P_13PlantGroup_11 1
+    3300068: PGD_P_13PlantGroup_12
+    3300070: PGD_P_13PlantGroup_12 1
+    3300072: PGD_P_13Terrain_01
+    3300074: PGD_P_Low13BaseBlue_02
+    3300076: PGD_P_Low13BaseBlue_05
+    3300078: PGD_P_Low13BaseRed_02
+    3300080: PGD_P_Low13BaseRed_04
+    3300082: PGD_P_Low13BaseRed_05
+    3300084: PGD_P_Mid13BuffPropsGroup_01
+    3300086: PGD_P_Mid13BuffPropsGroup_01 1
+    3300088: PGD_P_Mid13BuffPropsGroup_02
+    3300090: PGD_P_Mid13BuffPropsGroup_02 1
+    3300092: PGD_P_Mid13BuffPropsGroup_03
+    3300094: PGD_P_Mid13BuffPropsGroup_03 1
+    3300096: PGD_P_Mid13PropsA_01
+    3300098: PGD_P_Mid13PropsAdditional_01
+    3300100: PGD_P_Mid13PropsAdditional_01 1
+    3300102: PGD_P_Mid13PropsAdditional_02
+    3300104: PGD_P_Mid13PropsAdditional_02 1
+    3300106: PGD_P_Mid13PropsB_01
+    3300108: PGD_P_Mid13PropsC_01
+    3300110: PGD_P_Mid13PropsD_01
+    3300112: PGD_P_Mid13PropsGroup_01
+    3300114: PGD_P_Mid13PropsGroup_05
+    3300116: PGD_P_Mid13PropsGroup_05 1
+    3300118: PGD_P_Mid13PropsGroup_10
+    3300120: PGD_P_Mid13PropsGroup_10 1
+    3300122: PGD_P_Mid13PropsGroup_11
+    3300124: PGD_P_Mid13PropsGroup_11 1
+    3300126: PGD_P_Mid13PropsGroup_12
+    3300128: PGD_P_Mid13PropsGroup_12 1
+    3300130: Plane002
+    4300000: Plane002
+    4300002: PGD_P_13JungleGrassGroup_14
+    4300004: PGD_P_13JungleGrassGroup_09
+    4300006: PGD_P_13JungleGrassGroup_03
+    4300008: PGD_P_13JungleGrassGroup_12
+    4300010: PGD_P_13JungleGrassGroup_07
+    4300012: PGD_P_13JungleGrassGroup_11
+    4300014: PGD_P_13JungleGrassGroup_13
+    4300016: PGD_P_Low13BaseRed_04
+    4300018: PGD_P_Low13BaseBlue_05
+    4300020: PGD_P_Mid13PropsAdditional_02
+    4300022: PGD_P_13PlantGroup_05
+    4300024: PGD_P_Mid13BuffPropsGroup_02
+    4300026: PGD_P_13BlockBuffBlue_01
+    4300028: PGD_P_13PlantGroup_10
+    4300030: PGD_P_Mid13PropsAdditional_01
+    4300032: PGD_P_13PlantGroup_11
+    4300034: PGD_P_Mid13PropsGroup_10
+    4300036: PGD_P_Mid13BuffPropsGroup_01
+    4300038: PGD_P_Mid13PropsGroup_05
+    4300040: PGD_P_Mid13BuffPropsGroup_03
+    4300042: PGD_P_13BlockBuffRed_01
+    4300044: PGD_P_13PlantGroup_04
+    4300046: PGD_P_13PlantGroup_12
+    4300048: PGD_P_Mid13PropsGroup_11
+    4300050: PGD_P_Mid13PropsGroup_12
+    4300052: PGD_P_Mid13BuffPropsGroup_02
+    4300054: PGD_P_Mid13PropsGroup_11
+    4300056: PGD_P_13PlantGroup_10
+    4300058: PGD_P_Mid13BuffPropsGroup_03
+    4300060: PGD_P_Mid13PropsAdditional_01
+    4300062: PGD_P_13BlockBuffBlue_01
+    4300064: PGD_P_Mid13PropsGroup_05
+    4300066: PGD_P_13PlantGroup_12
+    4300068: PGD_P_13PlantGroup_11
+    4300070: PGD_P_Mid13PropsAdditional_02
+    4300072: PGD_P_13PlantGroup_05
+    4300074: PGD_P_13PlantGroup_04
+    4300076: PGD_P_Mid13BuffPropsGroup_01
+    4300078: PGD_P_Mid13PropsGroup_12
+    4300080: PGD_P_13BlockBuffRed_01
+    4300082: PGD_P_Mid13PropsGroup_10
+    4300084: PGD_P_Mid13PropsGroup_01
+    4300086: PGD_P_13PlantGroup_02
+    4300088: PGD_P_13DecalTowerBase_02
+    4300090: PGD_P_13BlockBossA_01
+    4300092: PGD_P_Low13BaseRed_05
+    4300094: PGD_P_Mid13PropsA_01
+    4300096: PGD_P_Mid13PropsD_01
+    4300098: PGD_P_13DecalTerrain_03_4
+    4300100: PGD_P_13BlockBossB_01
+    4300102: PGD_P_Mid13PropsC_01
+    4300104: PGD_P_13DecalTowerBase_01
+    4300106: PGD_P_Mid13PropsB_01
+    4300108: PGD_P_13DecalTerrain_03_4_1
+    4300110: PGD_P_Low13BaseBlue_02
+    4300112: PGD_P_Low13BaseRed_02
+    4300114: PGD_P_13PlantGroup_03
+    4300116: PGD_P_13JungleGrassGroup_03
+    4300118: PGD_P_13JungleGrassGroup_09
+    4300120: PGD_P_13JungleGrassGroup_07
+    4300122: PGD_P_13JungleGrassGroup_12
+    4300124: PGD_P_13JungleGrassGroup_14
+    4300126: PGD_P_13JungleGrassGroup_11
+    4300128: PGD_P_13JungleGrassGroup_13
+    4300130: PGD_P_13Terrain_01
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

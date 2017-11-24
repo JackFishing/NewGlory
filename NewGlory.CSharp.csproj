@@ -111,6 +111,7 @@
     <Compile Include="Assets\_Scripts\JoyStick\PlayerMove.cs" />
     <Compile Include="Assets\_Scripts\JoyStick\SkillArea.cs" />
     <Compile Include="Assets\_Scripts\JoyStick\SkillJoystick.cs" />
+    <Compile Include="Assets\_Scripts\SkillManager\DetectionTest.cs" />
     <Compile Include="Assets\_Scripts\SkillManager\ISKillTrigger.cs" />
     <Compile Include="Assets\_Scripts\Views\Main\MainChanelPanelView.cs" />
     <Compile Include="Assets\_Scripts\Views\Main\MainMenuPanelView.cs" />
