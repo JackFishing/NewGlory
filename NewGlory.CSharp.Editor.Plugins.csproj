@@ -157,6 +157,7 @@
     <Compile Include="Assets\Plugins\EasyTouchBundle\EasyTouchControls\Plugins\Editor\ETCTouchPadInspector.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Additive Tint.shader" />
     <None Include="Assets\Plugins\EasyTouchBundle\EasyTouch\How to migrate from EasyTouch 4.X.txt" />
     <None Include="Assets\Plugins\EasyTouchBundle\EasyTouch\RealseNotes.txt" />
     <None Include="Assets\Plugins\EasyTouchBundle\EasyTouch\_Documentation\How to migrate from EasyTouch 4.X.txt" />
