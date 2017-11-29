@@ -77,7 +77,7 @@
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>Assets\SimpleJSON\ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>Assets\_Scripts\SimpleJSON\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -159,7 +159,6 @@
     <Compile Include="Assets\Plugins\EasyTouchBundle\EasyTouchControls\Plugins\ETCTouchPad.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Additive Tint.shader" />
     <None Include="Assets\Plugins\EasyTouchBundle\EasyTouch\How to migrate from EasyTouch 4.X.txt" />
     <None Include="Assets\Plugins\EasyTouchBundle\EasyTouch\RealseNotes.txt" />
     <None Include="Assets\Plugins\EasyTouchBundle\EasyTouch\_Documentation\How to migrate from EasyTouch 4.X.txt" />
@@ -167,15 +166,16 @@
     <None Include="Assets\Plugins\EasyTouchBundle\EasyTouchControls\Issues in button behavior (MAC).txt" />
     <None Include="Assets\Plugins\EasyTouchBundle\EasyTouchControls\ReleaseNotes.txt" />
     <None Include="Assets\Plugins\EasyTouchBundle\Readme.txt" />
-    <None Include="Assets\Resources\Effect\Shader\Particle Alpha Blend1.shader" />
-    <None Include="Assets\Resources\Effect1\DynamicElements_Effects\readme.txt" />
-    <None Include="Assets\Resources\Effect1\Realistic Effects Pack\Shaders\AlphaBlended.shader" />
-    <None Include="Assets\Resources\Effect1\Realistic Effects Pack\Shaders\Distortion\DistortionCullBack.shader" />
-    <None Include="Assets\Resources\Effect1\Realistic Effects Pack\Shaders\Distortion\Free\FreeDistortionCullOff.shader" />
-    <None Include="Assets\Resources\Effect1\Realistic Effects Pack\Shaders\ParticleAdd.shader" />
+    <None Include="Assets\Resources\Effects\DynamicElements_Effects\readme.txt" />
+    <None Include="Assets\Resources\Effects\Realistic Effects Pack\Shaders\AlphaBlended.shader" />
+    <None Include="Assets\Resources\Effects\Realistic Effects Pack\Shaders\Distortion\DistortionCullBack.shader" />
+    <None Include="Assets\Resources\Effects\Realistic Effects Pack\Shaders\Distortion\Free\FreeDistortionCullOff.shader" />
+    <None Include="Assets\Resources\Effects\Realistic Effects Pack\Shaders\ParticleAdd.shader" />
     <None Include="Assets\Resources\Localization\Chinese.json.txt" />
     <None Include="Assets\Resources\Localization\English.json.txt" />
     <None Include="Assets\Resources\Models\Blade_girl\FT_Pulse_volume01\magic\Clip.shader" />
+    <None Include="Assets\Resources\Models\SceneModel\5v5\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Additive Tint.shader" />
+    <None Include="Assets\Resources\Textures\Effect\Shader\Particle Alpha Blend1.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
