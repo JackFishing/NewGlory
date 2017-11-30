@@ -49,5 +49,8 @@ namespace MoleMole
         public static readonly UIType CompetitionPanel = new UIType("View/Menu/CompetitionPanelView");
         public static readonly UIType ActivityPanel = new UIType("View/Menu/ActivityPanelView");
         public static readonly UIType InscriptionPanel = new UIType("View/Menu/InscriptionPanelView");
+        public static readonly UIType BattlePanel = new UIType("View/Menu/BattlePanelView");
+        public static readonly UIType ActualCombatPanel = new UIType("View/Menu/ActualCombatPanelView");
+        
     }
 }

@@ -118,6 +118,8 @@
     <Compile Include="Assets\_Scripts\Views\Main\Test.cs" />
     <Compile Include="Assets\_Scripts\Views\Menu\AchievementSystemPanelView.cs" />
     <Compile Include="Assets\_Scripts\Views\Menu\ActivityPanelView.cs" />
+    <Compile Include="Assets\_Scripts\Views\Menu\ActualCombatPanelView.cs" />
+    <Compile Include="Assets\_Scripts\Views\Menu\BattlePanelView.cs" />
     <Compile Include="Assets\_Scripts\Views\Menu\BattleWatchingPanelView.cs" />
     <Compile Include="Assets\_Scripts\Views\Menu\CommunityPanelView.cs" />
     <Compile Include="Assets\_Scripts\Views\Menu\CompetitionPanelView.cs" />

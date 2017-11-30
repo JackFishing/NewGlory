@@ -127,5 +127,9 @@ namespace MoleMole
         {
             Singleton<ContextManager>.Instance.Push(new InscriptionPanelContext());
         }
+        public void BattlePanelViewCallBack()
+        {
+            Singleton<ContextManager>.Instance.Push(new BattlePanelContext());
+        }
     }
 }

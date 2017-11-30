@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f855f3e8661d0c84ab02a9ffcc1a8b27
-timeCreated: 1511939938
+timeCreated: 1512023967
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -95,10 +95,10 @@ TextureImporter:
       name: SpriteAtlasTexture_1024x512_fmt4_0
       rect:
         serializedVersion: 2
-        x: 145
-        y: 336
-        width: 150
-        height: 71
+        x: 147
+        y: 337
+        width: 142
+        height: 68
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,7 +269,7 @@ TextureImporter:
         width: 113
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
