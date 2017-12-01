@@ -45,6 +45,12 @@ namespace MoleMole
         {
             Singleton<ContextManager>.Instance.Push(new BattlePanelContext());
         }
+
+        public void Mode5V5LoadPush()
+        {
+            Application.LoadLevel("5V5");
+           
+        }
     }
 }
 
