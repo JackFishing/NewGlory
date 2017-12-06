@@ -166,16 +166,16 @@
     <None Include="Assets\Plugins\EasyTouchBundle\EasyTouchControls\Issues in button behavior (MAC).txt" />
     <None Include="Assets\Plugins\EasyTouchBundle\EasyTouchControls\ReleaseNotes.txt" />
     <None Include="Assets\Plugins\EasyTouchBundle\Readme.txt" />
-    <None Include="Assets\Resources\Effects\DynamicElements_Effects\readme.txt" />
-    <None Include="Assets\Resources\Effects\Realistic Effects Pack\Shaders\AlphaBlended.shader" />
-    <None Include="Assets\Resources\Effects\Realistic Effects Pack\Shaders\Distortion\DistortionCullBack.shader" />
-    <None Include="Assets\Resources\Effects\Realistic Effects Pack\Shaders\Distortion\Free\FreeDistortionCullOff.shader" />
-    <None Include="Assets\Resources\Effects\Realistic Effects Pack\Shaders\ParticleAdd.shader" />
+    <None Include="Assets\Resources\Effect\Shader\Particle Alpha Blend1.shader" />
     <None Include="Assets\Resources\Localization\Chinese.json.txt" />
     <None Include="Assets\Resources\Localization\English.json.txt" />
-    <None Include="Assets\Resources\Models\Blade_girl\FT_Pulse_volume01\magic\Clip.shader" />
-    <None Include="Assets\Resources\Models\SceneModel\5v5\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Additive Tint.shader" />
-    <None Include="Assets\Resources\Textures\Effect\Shader\Particle Alpha Blend1.shader" />
+    <None Include="Assets\Sources\Effects\DynamicElements_Effects\readme.txt" />
+    <None Include="Assets\Sources\Effects\Realistic Effects Pack\Shaders\AlphaBlended.shader" />
+    <None Include="Assets\Sources\Effects\Realistic Effects Pack\Shaders\Distortion\DistortionCullBack.shader" />
+    <None Include="Assets\Sources\Effects\Realistic Effects Pack\Shaders\Distortion\Free\FreeDistortionCullOff.shader" />
+    <None Include="Assets\Sources\Effects\Realistic Effects Pack\Shaders\ParticleAdd.shader" />
+    <None Include="Assets\Sources\Models\Blade_girl\FT_Pulse_volume01\magic\Clip.shader" />
+    <None Include="Assets\Sources\Models\SceneModel\5v5\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Additive Tint.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>

@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: a0ac28c3a4b3baa47b1e2e685b48f5da
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone08
+    100002: Bone07
+    100004: Bone11
+    100006: Dummy02
+    100008: //RootNode
+    100010: Bone10
+    100012: Bone09
+    100016: Bone14
+    100018: Bone13
+    100020: Dummy03
+    100022: Cylinder03
+    100024: Bone12
+    100026: Cylinder04
+    100028: Bone18
+    100030: Bone17
+    100032: Bone16
+    100034: Bone15
+    100036: Cylinder07
+    100038: Bone36
+    100040: Bone35
+    100042: Bone22
+    100044: Bone21
+    100046: Bone20
+    100048: Bone19
+    100050: Dummy04
+    100052: Bone29
+    100054: Bone28
+    100056: Bone27
+    100058: Bone26
+    100060: Bone34
+    100062: Bone33
+    100064: Bone32
+    100066: Bone31
+    100068: Dummy06
+    100070: Cylinder06
+    100072: Bone30
+    100074: Bone25
+    100076: Dummy05
+    100078: Cylinder05
+    100080: Bone24
+    100082: Bone23
+    400000: Bone08
+    400002: Bone07
+    400004: Bone11
+    400006: Dummy02
+    400008: //RootNode
+    400010: Bone10
+    400012: Bone09
+    400016: Bone14
+    400018: Bone13
+    400020: Dummy03
+    400022: Cylinder03
+    400024: Bone12
+    400026: Cylinder04
+    400028: Bone18
+    400030: Bone17
+    400032: Bone16
+    400034: Bone15
+    400036: Cylinder07
+    400038: Bone36
+    400040: Bone35
+    400042: Bone22
+    400044: Bone21
+    400046: Bone20
+    400048: Bone19
+    400050: Dummy04
+    400052: Bone29
+    400054: Bone28
+    400056: Bone27
+    400058: Bone26
+    400060: Bone34
+    400062: Bone33
+    400064: Bone32
+    400066: Bone31
+    400068: Dummy06
+    400070: Cylinder06
+    400072: Bone30
+    400074: Bone25
+    400076: Dummy05
+    400078: Cylinder05
+    400080: Bone24
+    400082: Bone23
+    4300000: Cylinder02
+    4300002: Cylinder03
+    4300004: Cylinder04
+    4300006: Cylinder05
+    4300008: Cylinder06
+    4300010: Cylinder07
+    7400000: Take 001
+    7400002: begin
+    7400004: idle
+    7400006: end
+    7400008: all_anims
+    11100000: //RootNode
+    13700000: Cylinder03
+    13700002: Cylinder04
+    13700004: Cylinder07
+    13700006: Cylinder06
+    13700008: Cylinder05
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: begin
+      takeName: 
+      firstFrame: 1
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: 
+      firstFrame: 16
+      lastFrame: 45
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: end
+      takeName: 
+      firstFrame: 46
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: all_anims
+      takeName: 
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0140000004
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

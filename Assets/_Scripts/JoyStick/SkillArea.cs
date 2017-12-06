@@ -37,7 +37,7 @@ public class SkillArea : MonoBehaviour {
     bool isPressed = false;
 
 
-    string path = "Textures/Effect/Prefabs/Hero_skillarea/";  // 路径
+    string path = "Effect/Prefabs/Hero_skillarea/";  // 路径
     string circle = "quan_hero";    // 圆形
     string cube = "chang_hero";     // 矩形
     string sector60 = "shan_hero_60";    // 扇形60度
