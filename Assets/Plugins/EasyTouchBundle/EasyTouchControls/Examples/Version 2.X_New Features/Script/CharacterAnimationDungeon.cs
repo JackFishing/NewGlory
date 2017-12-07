@@ -5,7 +5,7 @@ public class CharacterAnimationDungeon : MonoBehaviour {
 
     public static CharacterAnimationDungeon _instance;
 	private CharacterController cc;
-	//private Animator anim;
+	private Animator anim;
     public GameObject[] effects; 
 
   //  public GameObject ETC;
@@ -17,31 +17,29 @@ public class CharacterAnimationDungeon : MonoBehaviour {
 	void Start () {
 		
 		cc= GetComponentInChildren<CharacterController>();
-		//anim = GetComponentInChildren<Animator>();
+		anim = GetComponentInChildren<Animator>();
 	}
 	
 	
 	// Wait end of frame to manage charactercontroller, because gravity is managed by virtual controller
 	void LateUpdate(){
 		if (cc.isGrounded && (ETCInput.GetAxis("Vertical")!=0 || ETCInput.GetAxis("Horizontal")!=0)){
-			//anim.CrossFade("soldierRun");
-            //if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Run"))
-            //{
-            //    anim.SetBool("Run", true);
-            //    anim.SetBool("Idle", false);
-                
-            //}
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Run"))
+            {
+                anim.SetBool("Run", true);
+                anim.SetBool("Idle", false);
+
+            }
             
 
 		}
 		
 		if (cc.isGrounded && ETCInput.GetAxis("Vertical")==0 && ETCInput.GetAxis("Horizontal")==0){
-		//	anim.CrossFade("soldierIdleRelaxed");
-            //if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
-            //{
-            //    anim.SetBool("Idle", true);
-            //    anim.SetBool("Run", false);
-            //}
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
+            {
+                anim.SetBool("Idle", true);
+                anim.SetBool("Run", false);
+            }
            
 
 		}
@@ -57,7 +55,7 @@ public class CharacterAnimationDungeon : MonoBehaviour {
 	}
     public void HeroAttack(Vector3 pos)
     {
-       // anim.SetTrigger("ComboAttack");
+        anim.SetTrigger("ComboAttack");
         transform.LookAt(pos);
        // ETC.GetComponent<ETCJoystick>().isTurnAndMove = false;
     }
