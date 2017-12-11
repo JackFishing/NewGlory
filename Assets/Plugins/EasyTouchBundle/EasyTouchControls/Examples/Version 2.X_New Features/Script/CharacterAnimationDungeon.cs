@@ -6,7 +6,9 @@ public class CharacterAnimationDungeon : MonoBehaviour {
     public static CharacterAnimationDungeon _instance;
 	private CharacterController cc;
 	private Animator anim;
-    public GameObject[] effects; 
+    public GameObject[] effects;
+    public bool IsSkillStart = false;
+   // ETCAxis Axis;
 
   //  public GameObject ETC;
     void Awake()
@@ -53,16 +55,23 @@ public class CharacterAnimationDungeon : MonoBehaviour {
         //}
 
 	}
+    ETCJoystick Joy=new ETCJoystick();
     public void HeroAttack(Vector3 pos)
     {
         anim.SetTrigger("ComboAttack");
         transform.LookAt(pos);
-       // ETC.GetComponent<ETCJoystick>().isTurnAndMove = false;
+        Joy.SkillStart();
+        StartCoroutine(RunStart());
     }
     public void EffectClone(Vector3 pos)
     {
         GameObject go = Instantiate(effects[2]) as GameObject;
         go.transform.localPosition = pos;
 
+    }
+    IEnumerator RunStart()
+    {
+        yield return new WaitForSeconds(2.5f);
+        Joy.SkillEnd();
     }
 }

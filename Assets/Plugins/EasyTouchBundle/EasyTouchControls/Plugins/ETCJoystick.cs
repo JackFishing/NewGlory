@@ -75,7 +75,7 @@ public class ETCJoystick : ETCBase,IPointerEnterHandler,IDragHandler, IBeginDrag
 	public RectTransform userArea;
 
 	public bool isTurnAndMove = false;
-	public float tmSpeed = 10;
+	public float tmSpeed =  10;
 	public float tmAdditionnalRotation = 0;
 	public AnimationCurve tmMoveCurve;
 	public bool tmLockInJump = false;
@@ -177,7 +177,6 @@ public class ETCJoystick : ETCBase,IPointerEnterHandler,IDragHandler, IBeginDrag
 	}
 
 	public override void Start(){
-	
 		axisX.InitAxis();
 		axisY.InitAxis();
 
@@ -218,7 +217,7 @@ public class ETCJoystick : ETCBase,IPointerEnterHandler,IDragHandler, IBeginDrag
 	public override void Update (){
 
 		base.Update ();
-
+        Debug.Log(CharacterAnimationDungeon._instance.IsSkillStart);
 		#region dynamic joystick
 		if (joystickType == JoystickType.Dynamic && !_visible && _activated){
 			Vector2 localPosition = Vector2.zero;
@@ -458,12 +457,16 @@ public class ETCJoystick : ETCBase,IPointerEnterHandler,IDragHandler, IBeginDrag
 		axisY.UpdateAxis( tmpAxis.y,isOnDrag, ETCBase.ControlType.Joystick,true);
 
 		#region Move event
-		if ((axisX.axisValue!=0 ||  axisY.axisValue!=0 ) && OldTmpAxis == Vector2.zero){
+        if ((axisX.axisValue != 0 || axisY.axisValue != 0) && OldTmpAxis == Vector2.zero && !CharacterAnimationDungeon._instance.IsSkillStart)
+        {
 			onMoveStart.Invoke();
 		}
-		if (axisX.axisValue!=0 ||  axisY.axisValue!=0 ){
+      //  Debug.Log(IsSkill);
+        if ((axisX.axisValue != 0 || axisY.axisValue != 0) && !CharacterAnimationDungeon._instance.IsSkillStart)
+        {
 
-			if (!isTurnAndMove){
+			if (!isTurnAndMove)
+            {
 				// X axis
 				if( axisX.actionOn == ETCAxis.ActionOn.Down && (axisX.axisState == ETCAxis.AxisState.DownLeft || axisX.axisState == ETCAxis.AxisState.DownRight)){
 					axisX.DoDirectAction();
@@ -509,6 +512,7 @@ public class ETCJoystick : ETCBase,IPointerEnterHandler,IDragHandler, IBeginDrag
 		}
 
 		#endregion
+
 
 
 		#region Down & press event
@@ -576,6 +580,17 @@ public class ETCJoystick : ETCBase,IPointerEnterHandler,IDragHandler, IBeginDrag
 	}		
 	#endregion
 
+    public void SkillStart()
+    {
+        CharacterAnimationDungeon._instance.IsSkillStart = true;
+        Debug.Log("进入技能:" + CharacterAnimationDungeon._instance.IsSkillStart);
+
+    }
+    public void SkillEnd()
+    {
+        CharacterAnimationDungeon._instance.IsSkillStart = false;
+        Debug.Log("技能结束" + CharacterAnimationDungeon._instance.IsSkillStart);
+    }
 	#region Touch manager
 	private bool isTouchOverJoystickArea(ref Vector2 localPosition, ref Vector2 screenPosition){
 		
@@ -738,12 +753,10 @@ public class ETCJoystick : ETCBase,IPointerEnterHandler,IDragHandler, IBeginDrag
 	}
 	#endregion
 
-
 	private void DoTurnAndMove(){
 
 		float angle =Mathf.Atan2( axisX.axisValue,axisY.axisValue ) * Mathf.Rad2Deg;
 		float speed = tmMoveCurve.Evaluate( new Vector2(axisX.axisValue,axisY.axisValue).magnitude) * tmSpeed;
-
 		if (axisX.directTransform != null){
 
 			axisX.directTransform.rotation = Quaternion.Euler(new Vector3(0,  angle + tmAdditionnalRotation,0));
@@ -764,6 +777,7 @@ public class ETCJoystick : ETCBase,IPointerEnterHandler,IDragHandler, IBeginDrag
 		}
 
 	}
+
 
 	public void InitCurve(){
 		axisX.InitDeadCurve();

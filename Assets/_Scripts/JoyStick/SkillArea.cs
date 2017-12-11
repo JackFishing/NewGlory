@@ -29,8 +29,8 @@ public class SkillArea : MonoBehaviour {
 
     Vector3 deltaVec;
 
-    float outerRadius = 6;      // 外圆半径
-    float innerRadius = 2f;     // 内圆半径
+    float outerRadius = 5;      // 外圆半径
+    float innerRadius = 1f;     // 内圆半径
     float cubeWidth = 2f;       // 矩形宽度 （矩形长度使用的外圆半径）
     int angle = 60;             // 扇形角度
 
@@ -50,7 +50,7 @@ public class SkillArea : MonoBehaviour {
     void Start()
     {
         joystick = GetComponent<SkillJoystick>();
-        areaType = SkillAreaType.OuterCircle_InnerCircle;
+       // areaType = SkillAreaType.OuterCircle_InnerCircle;
         joystick.onJoystickDownEvent += OnJoystickDownEvent;
         joystick.onJoystickMoveEvent += OnJoystickMoveEvent;
         joystick.onJoystickUpEvent += OnJoystickUpEvent;
